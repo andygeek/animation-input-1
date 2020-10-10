@@ -19,6 +19,7 @@ body {
     border: none;
     padding-top: 25px;
     outline: none;
+    font-size: 14px;
 }
 
 .form label {
@@ -39,7 +40,7 @@ body {
 
 .form input:focus + .label-name .content-name,
 .form input:valid + .label-name .content-name {
-    transform: translateY(-150%);
+    transform: translateY(-90%);
     font-size: 14px;
     color: dodgerblue;
 }
