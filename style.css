@@ -9,6 +9,15 @@ body {
 
 .form {
     position: relative;
-    width: 50%;
+    width: 300px;
     height: 50%;
+}
+
+.form input {
+    width: 100%;
+    
+}
+
+.form label {
+    width: 100%;
 }
