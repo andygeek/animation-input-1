@@ -30,3 +30,16 @@ body {
     pointer-events: none;
     border-bottom: 1px solid dodgerblue;
 }
+
+.content-name {
+    position: absolute;
+    bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    color: dodgerblue;
+}
